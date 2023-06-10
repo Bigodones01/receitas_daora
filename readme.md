@@ -6,12 +6,12 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-**`:heavy_check_mark:` v0.1a, 09/06/2023, 4:38pm**
+**:heavy_check_mark: v0.1a, 09/06/2023, 4:38pm**
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.
 
-**`:large_blue_diamond:` v0.1.1a, 10/06/2023, 5:47pm**
+**:large_blue_diamond: v0.1.1a, 10/06/2023, 5:47pm**
 
 * Adição da pasta***template*** (encontra-se dentro da pasta***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
 * Uso do Bootstrap e uma pequena edição dele no***main.css***.
