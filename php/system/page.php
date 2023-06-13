@@ -18,5 +18,6 @@
     
     <a href="../database/logout.php">Sair</a>
 </div>
+<?php include "../template/waves.php"; ?>
 </body>
 </html>

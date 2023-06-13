@@ -9,7 +9,6 @@
 
     <title>Entrar</title>
     <link rel="stylesheet" type="text/css" href="../../css/form.css">
-    <link rel="stylesheet" type="text/css" href="../../css/waves.css">
 
 <body>
 <div class="customcont">
@@ -28,10 +27,7 @@
     </form>
 </div>
 
-<div class="ocean"> <!-- Animation made by PK.C.Ashish Kumar -->
-    <div class="wave"></div>
-    <div class="wave"></div>
-    <div class="wave"></div>
-</div>
+<?php include "../template/waves.php"; ?>
+
 <script src="../../scripts/check.js"></script>
 </body>
