@@ -9,34 +9,34 @@ body {
 }
 
 .ocean {
-    height: 5%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     background: #015871;
+    bottom: 0;
+    height: 5%;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .wave {
+    animation: wave 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
     background: url(https://cdn.kcak11.com/codepen_assets/wave_animation/wave.svg) repeat-x;
+    height: 198px;
     position: absolute;
     top: -198px;
-    width: 6400px;
-    height: 198px;
-    animation: wave 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
     transform: translate3d(0, 0, 0);
+    width: 6400px;
 }
 
 .wave:nth-of-type(2) {
-    top: -175px;
     animation: wave 6s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
     opacity: 1;
+    top: -175px;
 }
 
 .wave:nth-of-type(3) {
-    top: -152px;
     animation: wave 4s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
     opacity: 1;
+    top: -152px;
 }
 
 @keyframes wave {

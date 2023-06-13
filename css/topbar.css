@@ -1,0 +1,60 @@
+* {
+    transition: ease-in-out all 50ms;
+}
+body {
+    margin: 0 !important;
+}
+.topbar {
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.001);
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 10px;
+}
+.mainbuttons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: fit-content;
+}
+.loginuser {
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+    width: fit-content;
+}
+a#topbuttons {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(63,63,63,0.5) 100%);
+    border-radius: 5px;
+    border: 0 !important;
+    font-family: 'Fira Sans';
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 22.5px;
+    text-shadow: 0px 0px 2.5px black;
+    color: white;
+    user-select: none;
+
+}
+a#topbuttons:hover {
+    box-shadow: 0 0 3.33px 2.5px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+a#topbuttons:active {
+    background-color: rgba(0, 0, 0, 0.45);
+}

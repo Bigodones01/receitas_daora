@@ -1,5 +1,9 @@
 <?php
 require_once "../database/connection.php";
+session_start();
+if(isset($_SESSION['login']) && $_SESSION['login'] === true) {
+    header("Location: ../system/page.php");
+}
 
 if(isset($_POST['email']) && isset($_POST['pass'])) {
     $mail = $_POST['email'];
@@ -16,12 +20,21 @@ if(isset($_POST['email']) && isset($_POST['pass'])) {
     if($user != NULL) {
         if($user->senha == $pass) {
             session_start();
+            $_SESSION['id'] = $user->idUsuario;
             $_SESSION['user'] = $user->nome;
+            $_SESSION['login'] = true;
             header("Location: ../system/page.php");
+            exit;
         } else if($user->senha != $pass) {
-            $error_log['pass'] = "Não é a senha correta! Tenta de novo!";
-        }
-    } else {
-        $error_log['mail'] = "Esse email não está cadastrado no sistema!";
+            $pass = "";
+            $error_log['pass'] = '<label id="formwarning">Não é a senha correta! Tenta de novo!</label>';
     }
+    } else {
+        $error_log['mail'] = '<label id="formwarning">Esse email não está cadastrado no sistema!</label>';
+    }
+}
+if(isset($_SESSION['id'])) {
+    session_start();
+    header("Location: ../system/page.php");
+    exit;
 }
