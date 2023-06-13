@@ -6,7 +6,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-**:white_check_mark: v0.1a, 09/06/2023, 4:38pm**
+**:heavy_check_mark: v0.1a, 09/06/2023, 4:38pm**
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.
