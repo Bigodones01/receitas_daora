@@ -1,4 +1,16 @@
 .main {
-    padding: 20px;
+    padding: 15px;
     margin-top: 60px;
+}
+.glass {
+    /*Feito com css.glass*/
+    backdrop-filter: blur(4.1px);
+    background: rgba(189, 189, 189, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 0 10px 1.25px rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    max-width: 60%;
+    z-index: 50;
+    position: absolute;
+    padding: 20px;
 }

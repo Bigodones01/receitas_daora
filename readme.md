@@ -6,6 +6,11 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
+**:ballot_box_with_check: v0.1.5a, 14/06/2023, 5:00pm**
+
+* Adição do botão "Dashboard", será implementado depois.
+
+
 **:ballot_box_with_check: v0.1.3a, 13/06/2023, 9:34pm**
 
 * Pequenas melhorias na topbar.

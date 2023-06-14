@@ -14,7 +14,16 @@
 </head>
 <body>
 <div class="main">
+    <div class='glass'>
     Welcome, <?php echo isset($_SESSION['user']) ? $_SESSION['user'] : "Guest" ; ?>
+    rhfuaweuiofshuivhuvhfuibvjhnvhrfhvfvguigvbbv
+    ewboisjtgiejriogtjiobvgjteiobgjtieowgjtj´rtggtgiotepgjtoggtugtijbpoi
+jfvhsdiofvhjiodsfhbvuiopsdjbidsfhiobjsdfuiogbujsfdiojbvhuiosdfbjsdbs´db[sd
+bfujisdfboijhiosdjfbiojhianuiohdhio´hasdvhiahsdv
+asdvijhsaioffjvsjdfvjhiosdfjiohsuiofhvuiosjdf
+sfpsdiofjisidfibojsdpokiosjfijsdiojadoivhqafasf´f
+fsjadfviojausdfviosdfioikaioujvhioajdfuihafnio]
+    </div>
 </div>
 <?php include "../template/waves.php"; ?>
 </body>

@@ -59,10 +59,10 @@ a.topbuttons:hover {
 a.topbuttons:active {
     background-color: rgba(0, 0, 0, 0.45);
 }
-.btndelete {
-    background: linear-gradient(180deg, rgba(134, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 100%) !important;
+.btndanger {
+    background: linear-gradient(180deg, rgba(134, 0, 0, 0.75) 0%, rgba(255, 0, 0, 0.75) 100%) !important;
 }
-.btndelete:hover {
+.btndanger:hover {
     box-shadow: 0 0 3.33px 2.5px red !important;
 }
 
@@ -86,4 +86,8 @@ img#superusr {
     border-radius: 5px;
     margin-left: 5px;
     box-shadow: 0 0 5px 1.5px red;
+}
+
+.disable {
+    display: none !important;
 }
