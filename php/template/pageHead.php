@@ -25,6 +25,7 @@
     <div class="loginuser">
     <?php if(isset($_SESSION['login']) && $_SESSION['login'] === true && $_SESSION['user'] == 'admin'): ?>
         <div class='logged-in'>
+            <a class='topbuttons btndelete'>Apagar</a>
             <a class='topbuttons'><?php echo $_SESSION['user']; ?></a>
             <img id='superusr' src="../template/tesst.jpg">
         </div>

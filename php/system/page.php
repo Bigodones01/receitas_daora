@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include "../template/pageHead.php";
 ?>
 
@@ -13,7 +14,7 @@
 </head>
 <body>
 <div class="main">
-    Welcome user!
+    Welcome, <?php echo isset($_SESSION['user']) ? $_SESSION['user'] : "Guest" ; ?>
 </div>
 <?php include "../template/waves.php"; ?>
 </body>

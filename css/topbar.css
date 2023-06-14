@@ -1,5 +1,5 @@
 * {
-    transition: ease-in-out all 50ms;
+    transition: ease all 100ms;
 }
 body {
     margin: 0 !important;
@@ -50,14 +50,20 @@ a.topbuttons {
     color: white;
     user-select: none;
     text-decoration: none;
-
 }
+
 a.topbuttons:hover {
     box-shadow: 0 0 3.33px 2.5px rgba(0, 0, 0, 0.5);
     z-index: 5;
 }
 a.topbuttons:active {
     background-color: rgba(0, 0, 0, 0.45);
+}
+.btndelete {
+    background: linear-gradient(180deg, rgba(134, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 100%) !important;
+}
+.btndelete:hover {
+    box-shadow: 0 0 3.33px 2.5px red !important;
 }
 
 .logged-in {
