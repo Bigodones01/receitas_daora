@@ -1,9 +1,5 @@
 <?php
 require_once "../database/connection.php";
-session_start();
-if(isset($_SESSION['login']) && $_SESSION['login'] === true) {
-    header("Location: ../system/page.php");
-}
 
 if(isset($_POST['email']) && isset($_POST['pass'])) {
     $mail = $_POST['email'];
@@ -22,6 +18,7 @@ if(isset($_POST['email']) && isset($_POST['pass'])) {
             session_start();
             $_SESSION['id'] = $user->idUsuario;
             $_SESSION['user'] = $user->nome;
+            $_SESSION['photo'] = $user->foto;
             $_SESSION['login'] = true;
             header("Location: ../system/page.php");
             exit;

@@ -32,7 +32,7 @@ body {
     float: left;
     width: fit-content;
 }
-a#topbuttons {
+a.topbuttons {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(63,63,63,0.5) 100%);
@@ -49,12 +49,35 @@ a#topbuttons {
     text-shadow: 0px 0px 2.5px black;
     color: white;
     user-select: none;
+    text-decoration: none;
 
 }
-a#topbuttons:hover {
+a.topbuttons:hover {
     box-shadow: 0 0 3.33px 2.5px rgba(0, 0, 0, 0.5);
     z-index: 5;
 }
-a#topbuttons:active {
+a.topbuttons:active {
     background-color: rgba(0, 0, 0, 0.45);
+}
+
+.logged-in {
+    display: flex;
+    align-items: center;
+}
+img#user-login {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+img#superusr {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 5px 1.5px red;
 }

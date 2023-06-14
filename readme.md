@@ -6,18 +6,15 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-**:heavy_check_mark: v0.1a, 09/06/2023, 4:38pm**
+**:ballot_box_with_check: v0.1.3a, 13/06/2023, 9:34pm**
 
-* Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
-* Pastas organizadas, sujeito à mudanças.
+* Pequenas melhorias na topbar.
+* Pequena edição do arquivo que controla o login.
+* Só isso que lembro.
 
-**:heavy_check_mark: v0.1.1a, 10/06/2023, 5:47pm**
 
-* Adição da pasta***template*** (encontra-se dentro da pasta***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
-* Uso do Bootstrap e uma pequena edição dele no***main.css***.
-* Animação de ondas na tela login, feito por**PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se nesse site:[https://codepen.io/kcak11/pen/BYewdo]().
+**:heavy_check_mark: v0.1.2a, 12/06/2023, 10:04pm**
 
-**:ballot_box_with_check: v0.1.2a, 12/06/2023, 10:04pm**
 * Remoção do Bootstrap, devido à alguns problemas de estilo.
 * *main.css* virou uma classe para todos os divs das páginas.
 * Foi adcionado uma barra no topo da página, terá mais coisas nela (ainda preciso descobrir como que vou meter um menu de login na barra).
@@ -25,3 +22,16 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 * Nova coluna em cada uma das tabelas: vai adcionar um endereço de foto, será implementado nas páginas futuramente.
 * Intensa modificação no script em JS.
 * Talvez eu reorganize as pastas.
+
+
+**:heavy_check_mark: v0.1.1a, 10/06/2023, 5:47pm**
+
+* Adição da pasta ***template*** (encontra-se dentro da pasta ***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
+* Uso do Bootstrap e uma pequena edição dele no ***main.css***.
+* Animação de ondas na tela login, feito por **PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da [Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
+
+
+**:heavy_check_mark: v0.1a, 09/06/2023, 4:38pm**
+
+* Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
+* Pastas organizadas, sujeito à mudanças.

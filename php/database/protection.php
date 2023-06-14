@@ -3,5 +3,5 @@
 session_start();
 
 if(!isset($_SESSION['user'])) {
-    header("Location: ../system/form.php");
+    header("Location: ../system/login.php");
 }

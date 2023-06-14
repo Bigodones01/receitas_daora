@@ -1,3 +1,7 @@
+<?php 
+    if(!isset($_SESSION)) {session_start();}
+?>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -15,11 +19,24 @@
 <body>
 <div class="topbar">
     <div class="mainbuttons">
-        <a id='topbuttons'>Início</a>
-        <a id='topbuttons'>Receitas</a>
+        <a class='topbuttons'>Receitas Daora</a>
+        <a class='topbuttons'>Receitas</a>
     </div>
     <div class="loginuser">
-        <a id='topbuttons'>Início</a>
-        <a id='topbuttons'>Receitas</a>
+    <?php if(isset($_SESSION['login']) && $_SESSION['login'] === true && $_SESSION['user'] == 'admin'): ?>
+        <div class='logged-in'>
+            <a class='topbuttons'><?php echo $_SESSION['user']; ?></a>
+            <img id='superusr' src="../template/tesst.jpg">
+        </div>
+        </div>
+    <?php elseif(isset($_SESSION['login']) && $_SESSION['login'] === true): ?>
+        <div class='logged-in'>
+            <a class='topbuttons'><?php echo $_SESSION['user']; ?></a>
+            <img id='user-login' src="../template/tesst.jpg">
+        </div>
+        </div>
+    <?php else: ?>
+        <a href='../system/login.php' class='topbuttons'>Login</a>
+    <?php endif; ?>
     </div>
 </div>

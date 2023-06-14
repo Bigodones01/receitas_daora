@@ -1,5 +1,4 @@
 <?php
-    require_once "../database/protection.php";
     include "../template/pageHead.php";
 ?>
 
@@ -15,8 +14,6 @@
 <body>
 <div class="main">
     Welcome user!
-    
-    <a href="../database/logout.php">Sair</a>
 </div>
 <?php include "../template/waves.php"; ?>
 </body>
