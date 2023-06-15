@@ -3,4 +3,4 @@ session_start();
 $_SESSION = array();
 session_destroy();
     
-header("Location: ../system/page.php");
+header("Location: ../home/page.php");

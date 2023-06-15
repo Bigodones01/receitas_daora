@@ -6,19 +6,27 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-**:ballot_box_with_check: v0.1.5a, 14/06/2023, 5:00pm**
+**:yellow_square: v0.2a, 14/06/2023, 10:26pm**
+
+* Implementado sistema de criar conta, não sei o que vou fazer com ele, pode ser que eu coloque uma seção de comentários.
+* Script em PHP para adcionar fotos, ainda não testada.
+* Script em PHP que manipula o cadastro possui sem proteção de senha, será implementado uma segurança maior depois.
+* Provável que a próxima versão vai vir com pelo menos uma listagem ou a dashboard para admin, eu espero, mas não garanto nada.
+
+
+**:yellow_square: v0.1.5a, 14/06/2023, 5:00pm**
 
 * Adição do botão "Dashboard", será implementado depois.
 
 
-**:ballot_box_with_check: v0.1.3a, 13/06/2023, 9:34pm**
+**:yellow_square: v0.1.3a, 13/06/2023, 9:34pm**
 
 * Pequenas melhorias na topbar.
 * Pequena edição do arquivo que controla o login.
 * Só isso que lembro.
 
 
-**:heavy_check_mark: v0.1.2a, 12/06/2023, 10:04pm**
+**:yellow_square: v0.1.2a, 12/06/2023, 10:04pm**
 
 * Remoção do Bootstrap, devido à alguns problemas de estilo.
 * *main.css* virou uma classe para todos os divs das páginas.
@@ -29,14 +37,14 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 * Talvez eu reorganize as pastas.
 
 
-**:heavy_check_mark: v0.1.1a, 10/06/2023, 5:47pm**
+**:yellow_square: v0.1.1a, 10/06/2023, 5:47pm**
 
 * Adição da pasta ***template*** (encontra-se dentro da pasta ***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
 * Uso do Bootstrap e uma pequena edição dele no ***main.css***.
 * Animação de ondas na tela login, feito por **PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da [Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
 
 
-**:heavy_check_mark: v0.1a, 09/06/2023, 4:38pm**
+**:yellow_square: v0.1a, 09/06/2023, 4:38pm**
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.

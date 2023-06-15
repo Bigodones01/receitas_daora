@@ -20,7 +20,7 @@ if(isset($_POST['email']) && isset($_POST['pass'])) {
             $_SESSION['user'] = $user->nome;
             $_SESSION['photo'] = $user->foto;
             $_SESSION['login'] = true;
-            header("Location: ../system/page.php");
+            header("Location: ../home/page.php");
             exit;
         } else if($user->senha != $pass) {
             $pass = "";
@@ -32,6 +32,6 @@ if(isset($_POST['email']) && isset($_POST['pass'])) {
 }
 if(isset($_SESSION['id'])) {
     session_start();
-    header("Location: ../system/page.php");
+    header("Location: ../home/page.php");
     exit;
 }
