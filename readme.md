@@ -6,7 +6,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-**:yellow_square: v0.2a, 14/06/2023, 10:26pm**
+### ***:yellow_square: v0.2a, 14/06/2023, 10:26pm***
 
 * Implementado sistema de criar conta, não sei o que vou fazer com ele, pode ser que eu coloque uma seção de comentários.
 * Script em PHP para adcionar fotos, ainda não testada.
@@ -44,7 +44,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 * Animação de ondas na tela login, feito por **PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da [Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
 
 
-**:yellow_square: v0.1a, 09/06/2023, 4:38pm**
+### ***:yellow_square: v0.1a, 09/06/2023, 4:38pm***
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.
