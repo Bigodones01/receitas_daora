@@ -24,7 +24,8 @@
     color: rgba(0, 0, 0, 0.5);
     border: 0;
 }
-input[type=text], input[type=email], input[type=password], input[type=file]::file-selector-button {
+input[type=text], input[type=email], input[type=password], 
+input[type=file]::file-selector-button, textarea, input[type=number]{
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
@@ -32,6 +33,7 @@ input[type=text], input[type=email], input[type=password], input[type=file]::fil
     margin-bottom: 15px;
     width: 100%;
     box-sizing: border-box;
+    resize: none;
 }
 label#formwarning {
     color: rgb(255, 0, 0);
@@ -42,4 +44,8 @@ label#formwarning {
 
 input[type=file]::file-selector-button {
     width: fit-content !important;  
+}
+
+input[type=number] {
+    width: fit-content !important;
 }

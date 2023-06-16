@@ -1,7 +1,24 @@
-.main {
-    padding: 15px;
-    margin-top: 60px;
+body {
+    overflow-y: scroll !important;
 }
+
+.main {
+    padding: 17.5px;
+    margin-top: 60px !important;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.listmain {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .glass {
     /*Feito com css.glass*/
     backdrop-filter: blur(4.1px);
@@ -10,7 +27,34 @@
     box-shadow: 0 0 10px 1.25px rgba(0, 0, 0, 0.5);
     width: fit-content;
     max-width: 60%;
+    height: fit-content;
+    word-wrap: break-word;
     z-index: 50;
-    position: absolute;
-    padding: 20px;
+    /*position: absolute;*/   
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+}
+
+h1 { margin-block-start: 10px; margin-block-end: 10px; }
+p, h3 { margin-block-start: 2.5px; margin-block-end: 10px; font-weight: normal;}
+
+.btnadd {
+    background: linear-gradient(180deg, rgba(0, 134, 0, 0.75) 0%, rgba(0, 255, 0, 0.75) 100%) !important;
+}
+.btnadd:hover {
+    box-shadow: 0 0 5px 4px rgb(127, 255, 127) !important;
+}
+
+.btnedit {
+    background: linear-gradient(180deg, rgba(0, 0, 134, 0.75) 0%, rgba(0, 0, 255, 0.75) 100%) !important;
+}
+.btnedit:hover {
+    box-shadow: 0 0 5px 4px rgb(127, 127, 255) !important;
+}
+
+.btndang {
+    background: linear-gradient(180deg, rgba(134, 0, 0, 0.75) 0%, rgba(255, 0, 0, 0.75) 100%) !important;
+}
+.btndang:hover {
+    box-shadow: 0 0 5px 4px rgb(255, 127, 127) !important;  
 }

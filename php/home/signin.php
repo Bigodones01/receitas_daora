@@ -16,7 +16,7 @@
 <body>
 <div class="mainglass">
     <form action="signin.php" method="post" enctype="multipart/form-data">
-        <h1 style='text-align: center;'>CRIAR CONTA</h1><br>
+        <h1 style='text-align: center; margin-top: 10px; margin-bottom: 10px;'>CRIAR CONTA</h1>
 
         <label for="name">Nome</label><br>
         <input type="text" name="name" id="name" placeholder="Nome" value='<?php echo isset($name) ? $name : ""; ?>'
@@ -37,7 +37,8 @@
         <input type="password" name="cpass" id="cpass" placeholder="Senha" 
         oninput="checking();"><br>
 
-        <?php echo isset($error_log['mail']) ? $error_log['mail'] : "" ?>
+        <?php echo isset($error_log['name']) ? $error_log['name'] : "" ?>
+        <?php echo isset($error_log['email']) ? $error_log['email'] : "" ?>
         <?php echo isset($error_log['pass']) ? $error_log['pass'] : "" ?>
         <?php echo isset($error_log['cpass']) ? $error_log['cpass'] : "" ?>
 

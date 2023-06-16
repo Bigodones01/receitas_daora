@@ -12,23 +12,27 @@
     <link rel="stylesheet" href="../../css/topbar.css">
     <style>
         * {
-            font-family: 'Fira Sans';
+            font-family: 'Fira Sans', sans-serif;
         }
     </style>
 </head>
 <body>
 <div class="topbar">
     <div class="mainbuttons">
-        <a class='topbuttons'>Receitas Daora</a>
-        <a class='topbuttons'>Receitas</a>
+        <a href='../home/page.php' class='topbuttons'>Receitas Daora</a>
+        <?php if(isset($_SESSION['login']) && $_SESSION['login'] === true): ?>
+            <a href='../home/recipes.php' class='topbuttons'>Receitas</a>
+        <?php endif; ?>
+        <a href='../home/sobre.php' class='topbuttons'>Sobre</a>
     </div>
     <div class="loginuser">
-    <?php if(isset($_SESSION['login']) && $_SESSION['login'] === true && $_SESSION['user'] == 'admin'): ?>
+    <?php if(isset($_SESSION['login']) && $_SESSION['login'] === true && $_SESSION['user'] == 'superuser'): ?>
         <script src="../../scripts/btnenable.js"></script>
         <div class='logged-in'>
-            <a class='topbuttons disable' id='dashbord'>Dashboard</a>
+            <a class='topbuttons btndash disable' id='dashbord'>Dashboard</a>
             <a class='topbuttons btndanger' href='../database/logout.php'>Logout</a>
-            <a class='topbuttons' onclick='dashboard()'><?php echo $_SESSION['user']; ?></a>
+            <a class='topbuttons' style='background: linear-gradient(180deg, rgba(67, 0, 134, 0.75) 0%, rgba(127, 0, 255, 0.75) 100%);' 
+            onclick='dashboard()'><?php echo $_SESSION['user']; ?></a>
             <img id='superusr' src="../database/imgProfile/<?php echo $_SESSION['photo']; ?>">
         </div>
         </div>

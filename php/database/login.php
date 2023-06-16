@@ -14,15 +14,16 @@ if(isset($_POST['email']) && isset($_POST['pass'])) {
     $user = $result->fetch_object();
     
     if($user != NULL) {
-        if($user->senha == $pass) {
+        if(password_verify($pass, $user->senha)) {
             session_start();
             $_SESSION['id'] = $user->idUsuario;
-            $_SESSION['user'] = $user->nome;
+            $_SESSION['user'] = $user->usuario;
             $_SESSION['photo'] = $user->foto;
+            if($user->formacao != null) {$_SESSION['grade'] = $user->formacao;}
             $_SESSION['login'] = true;
             header("Location: ../home/page.php");
             exit;
-        } else if($user->senha != $pass) {
+        } else {
             $pass = "";
             $error_log['pass'] = '<label id="formwarning">Não é a senha correta! Tenta de novo!</label>';
     }

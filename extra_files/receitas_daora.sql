@@ -33,27 +33,30 @@ CREATE TABLE IF NOT EXISTS `bancoreceita` (
   PRIMARY KEY (`idReceita`),
   KEY `fk_bancoReceita_bancoUsuario_idx` (`autor`),
   CONSTRAINT `fk_bancoReceita_bancoUsuario` FOREIGN KEY (`autor`) REFERENCES `bancousuario` (`idUsuario`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
--- Copiando dados para a tabela receitasdaora.bancoreceita: ~1 rows (aproximadamente)
-INSERT INTO `bancoreceita` (`idReceita`, `nome`, `autor`, `ingredientes`, `modoPreparo`, `tempoPreparo`, `foto`) VALUES
-	(1, 'Teste', 1, 'a; va; ca; da; fa; ga', 'wjfiejwfwifoejifjeiofjeiwofjeifjioewjfiodsifjojsioxjfkkmfenfejiofjeiofhjeofhbueihfu', 12, 'nophoto.png');
+-- Copiando dados para a tabela receitasdaora.bancoreceita: ~0 rows (aproximadamente)
 
 -- Copiando estrutura para tabela receitasdaora.bancousuario
 DROP TABLE IF EXISTS `bancousuario`;
 CREATE TABLE IF NOT EXISTS `bancousuario` (
   `idUsuario` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(60) NOT NULL,
+  `usuario` varchar(60) NOT NULL,
   `email` varchar(200) NOT NULL,
   `senha` varchar(200) NOT NULL,
   `formacao` text DEFAULT NULL,
-  `foto` varchar(255) DEFAULT 'nophoto.png',
+  `foto` varchar(255) DEFAULT 'vazio.png',
   PRIMARY KEY (`idUsuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
--- Copiando dados para a tabela receitasdaora.bancousuario: ~1 rows (aproximadamente)
-INSERT INTO `bancousuario` (`idUsuario`, `nome`, `email`, `senha`, `formacao`, `foto`) VALUES
-	(1, 'admin', 'admin@mail.com', '123', 'Mestrado', 'nophoto.png');
+-- Copiando dados para a tabela receitasdaora.bancousuario: ~6 rows (aproximadamente)
+INSERT INTO `bancousuario` (`idUsuario`, `usuario`, `email`, `senha`, `formacao`, `foto`) VALUES
+	(1, 'superuser', 'super@user.com', '$2y$10$IPycESWF9YLp01/D5rMLHeEbBC1471XcFIR0fD9AGvqXtKbHLY8JC', 'super', '1686875144sudo.png'),
+	(2, 'Henrique Foagraça', 'foagraca.panicoschef@mail.com', '$2y$10$hS3e2ojda8BBBtZea16ElOExv3ILgpZER5LpOEgkXSJ.20oq19FcS', 'MasterChef', '1686937579imagem_2023-06-16_144503853.png'),
+	(3, 'Erick Jacão', 'jacao.panicoschef@mail.com', '$2y$10$dQsFVFOb.xqwUXiDYeIgvOUJRkwHpZOGw1Hbs31smFJcCjBt5xbHS', 'MasterChef', '1686937708imagem_2023-06-16_144707442.png'),
+	(4, 'Mana Bruscheta', 'mana123@mail.com', '$2y$10$mn6y5kLBtC1RRyTVBusFauqB8/eDH5EbLxhvv27RKq9ZwSXz.qoJG', NULL, '1686937934imagem_2023-06-16_145143754.png'),
+	(5, 'Paolha Cassarolha', 'cassarolha.panicoschef@mail.com', '$2y$10$lCToKVn0LA7pJWRj9PtapuF2X9zYO/9pMyYgpkQF7Cd2uJ03s4ucy', 'Masterchef', '1686938078imagem_2023-06-16_145345176.png'),
+	(6, 'Miguela', 'eaeculega@mail.com', '$2y$10$bgprdPs06S71rTZks3vMSOPpwOu6r4BY7tslDw0qUWFIduBHdRr7.', NULL, '1686938776imagem_2023-06-16_150615241.png');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
