@@ -83,3 +83,7 @@ Programas recomendados: XAMPP e HeidiSQL.
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.
+
+-- --
+
+## Made with ❤ by Kauã Diniz.
