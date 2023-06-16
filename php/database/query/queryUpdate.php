@@ -6,7 +6,7 @@ if(!isset($_SESSION['login'])) {
 
 require "../../database/connection.php";
 
-require_once "../../scripts/processPhoto.php";
+require "../../scripts/processRecipe.php";
 
 $ident = $_POST['ident'];
 $nome = $_POST['nome'];

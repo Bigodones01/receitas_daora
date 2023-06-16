@@ -24,7 +24,7 @@
             flex-direction: column !important; align-items: start;'>
             <h1><?= $receita['nome'] ?></h1>
             <h3>Por <b><?= $receita['usuario'] ?></b></h3><br>
-            <img src="https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg" 
+            <img src="../database/imgRecipe/<?= $receita['foto'] ?>" 
             style='width: auto; height: 250px; display: block; margin-left: auto; margin-right: auto;'><br><br>
             <h3> <b>Ingredientes: </b> </h3>
             <?php 

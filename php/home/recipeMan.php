@@ -23,7 +23,8 @@
 <body>
 <div class='main'>
 <div class='mainglass' style='margin-top: 170px;'>
-    <form action='<?php echo isset($receita) ? "../database/query/queryUpdate.php" : "../database/query/queryAdd.php"; ?>' method="post" enctype='multipart/form-data'>
+    <form action='<?php echo isset($receita) ? "../database/query/queryUpdate.php" : "../database/query/queryAdd.php"; ?>' 
+    method="post" enctype="multipart/form-data">
         <h1 style='text-align: center;'>
             <?php echo isset($receita) ? 
             'ATUALIZAR' : 'INSERIR'; ?></h1><br>
@@ -43,7 +44,7 @@
         <input type="number" name='tempo' id='tempo' 
         oninput='checkform()' value='<?php echo $receita['tempoPreparo'] ?? ''; ?>'><br>
 
-        <label for="photo">Foto <?php echo(isset($receita)) ? '(Ignore se não quiser atualizar)' : '' ?></label>
+        <label for="photo">Foto</label>
         <br><input type="file" name='photo' id='photo' oninput='checkform()'><br>
 
         <label for="ingredi">Ingredientes</label><br>

@@ -5,15 +5,15 @@ if(!isset($_SESSION['login'])) {
 }
 
 require_once "../../database/connection.php";
+require "../../scripts/processRecipe.php";
 
 if(isset($_POST['nome']) && isset($_POST['tempo']) && 
-    isset($_POST['ingredi']) && isset($_POST['modpre'])) {
-        require_once "../../scripts/processPhoto.php";        
+    isset($_POST['ingredientes']) && isset($_POST['modpre'])) {
 
         $nome = $_POST['nome'];
         $autor = $_SESSION['id'];
         $tempo = $_POST['tempo'];
-        $ingre = implode(';', explode("\n", $_POST['ingredi']));
+        $ingre = implode(';', explode("\n", $_POST['ingredientes']));
         $modpre = $_POST['modpre'];
 
         $sql = "INSERT INTO bancoreceita (`nome`, `autor`, `ingredientes`, `modoPreparo`, `tempoPreparo`, `foto`) VALUES (?, ?, ?, ?, ?, ?);";
