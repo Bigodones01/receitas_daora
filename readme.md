@@ -6,15 +6,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ## Versões:
 
-### **:yellow_square: BETA 1 (Cunning Cheetah), 16/06/2023, 3:15pm**
-
-* Criado scripts em PHP para inserir, excluir, atualizar e ler (CRUD).
-* Melhorias nos formulários de Login, cadastrar e formulário de receitas.
-* Ao todo, 5 scripts*query* foram criados.
-* Arquivo SQL essencial para este site atualizado.
-* Será realizado mais testes, brevemente será lançado a versão final.
-
-### **:yellow_square: v0.2a, 14/06/2023, 10:26pm**
+**:yellow_square: v0.2a, 14/06/2023, 10:26pm**
 
 * Implementado sistema de criar conta, não sei o que vou fazer com ele, pode ser que eu coloque uma seção de comentários.
 * Script em PHP para adcionar fotos, ainda não testada.
@@ -47,7 +39,8 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 * Uso do Bootstrap e uma pequena edição dele no***main.css***.
 * Animação de ondas na tela login, feito por**PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da[Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
 
-### **:yellow_square: v0.1a, 09/06/2023, 4:38pm**
+
+**:yellow_square: v0.1a, 09/06/2023, 4:38pm**
 
 * Tela de login finalmente funciona, depois de dois dias tentando ver o que diabos estava acontecendo.
 * Pastas organizadas, sujeito à mudanças.
