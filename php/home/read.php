@@ -23,7 +23,7 @@
         <div class='list' style='word-wrap: break-word; text-align: justify; 
             flex-direction: column !important; align-items: start;'>
             <h1><?= $receita['nome'] ?></h1>
-            <h3>Por <b><?= $receita['usuario'] ?></b></h3><br>
+            <h3>Por <b><?= $receita['usuario'] ?></b> | Tempo de preparo: <?= $receita['tempoPreparo'] ?> minutos.</h3><br>
             <img src="../database/imgRecipe/<?= $receita['foto'] ?>" 
             style='width: auto; height: 250px; display: block; margin-left: auto; margin-right: auto;'><br><br>
             <h3> <b>Ingredientes: </b> </h3>

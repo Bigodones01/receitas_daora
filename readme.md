@@ -1,10 +1,31 @@
-# Programação Back-End -> Trabalho
+# Programação Back-End -> Trabalho -> Receitas Daora
 
-### Receitas Daora
+## Table of Contents
 
-Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receitas apetitosas e fáceis de seguir para todas as ocasiões. Seja para refeições rápidas do dia-a-dia para jantares inesquecíveis, sempre há algo para você aqui. Receitas produzidas pelos chefs mais renomados do Brasil, para ter a certeza de obter os melhores resultados a qualquer hora. Mesmo que seja um cozinheiro experienciado ou está apenas a começar, nosso passo-a-passo e dicas irá guiar-te durante o processo em criar receitas incríveis que seus familiares e amigos irão amar.
+* [1. Como usar](#como-usar)
+* [2. Versões](#versões)
+
+-- --
+
+## Como usar:
+
+Programas recomendados: XAMPP e HeidiSQL.
+
+1. Coloque todo o conteúdo da pasta para a pasta **htdocs**, aonde está instalado o XAMPP.
+2. Usando o HeidiSQL, execute o script "receitas_daora.sql", para que assim tenha a *database* necessária para o funcionamento do site.
+3. Veja se precisa mudar alguma coisa no arquivo "php/database/connection.php".
+4. Só abrir o site no navegador. (localhost/receitas_daora)
+
+-- --
 
 ## Versões:
+
+### **✅ v1.0 FINAL (Fearless Falcon), 16/06/2023, 6:41pm**
+
+* Desfeito o dashboard para superusers devido à complexidade.
+* Atualizado o arquivo SQL necessário para rodar o site. Agora contém alguns dados como base para o site.
+* Versão final.
+
 
 ### **🟦 BETA 1.5 (Cunning Cheetah), 16/06/2023, 4:49pm**
 
@@ -15,7 +36,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 * Criado scripts em PHP para inserir, excluir, atualizar e ler (CRUD).
 * Melhorias nos formulários de Login, cadastrar e formulário de receitas.
-* Ao todo, 5 scripts*query* foram criados.
+* Ao todo, 5 scripts *query* foram criados.
 * Arquivo SQL essencial para este site atualizado.
 * Será realizado mais testes, brevemente será lançado a versão final.
 
@@ -30,7 +51,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 **:yellow_square: v0.1.5a, 14/06/2023, 5:00pm**
 
-* Adição do botão "Dashboard", será implementado depois.
+* Adição do botão "Dashboard", será implementado depois (não garantido).
 
 
 **:yellow_square: v0.1.3a, 13/06/2023, 9:34pm**
@@ -53,9 +74,9 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 **:yellow_square: v0.1.1a, 10/06/2023, 5:47pm**
 
-* Adição da pasta***template*** (encontra-se dentro da pasta***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
-* Uso do Bootstrap e uma pequena edição dele no***main.css***.
-* Animação de ondas na tela login, feito por**PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da[Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
+* Adição da pasta ***template*** (encontra-se dentro da pasta ***php***), onde serão guardados a base do HTML mais o Bootstrap, estilos CSS serão adcionados à parte.
+* Uso do Bootstrap e uma pequena edição dele no ***main.css***.
+* Animação de ondas na tela login, feito por **PK.C.Ashish Kumar**, levemente modificado por mim. A animação encontra-se no site da [Codepen.io](https://codepen.io/kcak11/pen/BYewdo).
 
 
 **:yellow_square: v0.1a, 09/06/2023, 4:38pm**
