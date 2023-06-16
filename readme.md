@@ -8,11 +8,7 @@ Seja bem vindo ao "Receitas Daora", onde você encontra uma variedade de receita
 
 ### **🟦 BETA 1.5 (Cunning Cheetah), 16/06/2023, 4:49pm**
 
-* Criado scripts em PHP para inserir, excluir, atualizar e ler (CRUD).
-* Melhorias nos formulários de Login, cadastrar e formulário de receitas.
-* Ao todo, 5 scripts*query* foram criados.
-* Arquivo SQL essencial para este site atualizado.
-* Será realizado mais testes, brevemente será lançado a versão final.
+* Rápidas correções.
 
 
 ### **🟦 BETA 1 (Cunning Cheetah), 16/06/2023, 3:15pm**
