@@ -15,6 +15,7 @@ Programas recomendados: XAMPP e HeidiSQL.
 2. Usando o HeidiSQL, execute o script "receitas_daora.sql", para que assim tenha a *database* necessária para o funcionamento do site.
 3. Veja se precisa mudar alguma coisa no arquivo "php/database/connection.php".
 4. Só abrir o site no navegador. (localhost/receitas_daora)
+5. Importante: dê uma olhada no arquivo users que está no extra_files. Ele será útil para login.
 
 -- --
 
