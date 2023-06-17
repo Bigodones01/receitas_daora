@@ -30,7 +30,6 @@
             'ATUALIZAR' : 'INSERIR'; ?></h1><br>
         <?php if(isset($receita)): ?>
         <input type="hidden" name='ident' id='ident' value='<?= $ident; ?>'>
-        <label>Cu penis</label>
         <?php endif; ?>
 
         <label for="nome">Nome da receita</label>
