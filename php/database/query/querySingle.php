@@ -15,9 +15,5 @@
         
         $ident = $receita['idReceita'];
 
-        $ingre = $receita['ingredientes'];
-        $ingredientes = explode(";", $ingre);
-        $resingre = implode("\n", $ingredientes);
-
         $resmodp = $receita['modoPreparo'];
     }
