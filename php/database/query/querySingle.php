@@ -19,7 +19,5 @@
         $ingredientes = explode(";", $ingre);
         $resingre = implode("\n", $ingredientes);
 
-        $modp = $receita['modoPreparo'];
-        $modoPreparo = explode(";", $modp);
-        $resmodp = implode("\n", $modoPreparo);
+        $resmodp = $receita['modoPreparo'];
     }
