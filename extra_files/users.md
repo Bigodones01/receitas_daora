@@ -10,5 +10,6 @@ Estes são os dados dos usuários para efetuar o login. Note que o ***Superuser*
 | Mana Bruscheta            | mana123@mail.com                | mana313            |
 | Paolha Cassarolha **(S)**  | cassarolha.panicoschef@mail.com | salsa&cebolinha213 |
 | Chinesa                   | basilela@mail.com               | chinesa123         |
+| Índio Ana Jones           | indiomtoloko@mail.com             | oSurfistaMascarado |
 
 Estes que possuem **(S)** possuem formação, que é usado como verificação para dar poderes administrativos que permitem inserir, atualizar e deletar do sistema, ou seja, **S**uperusers.

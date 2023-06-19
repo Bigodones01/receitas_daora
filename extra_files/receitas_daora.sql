@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Servidor:                     127.0.0.1
--- Versão do servidor:           10.4.28-MariaDB - mariadb.org binary distribution
+-- Versão do servidor:           10.4.27-MariaDB - mariadb.org binary distribution
 -- OS do Servidor:               Win64
--- HeidiSQL Versão:              12.5.0.6677
+-- HeidiSQL Versão:              12.3.0.6589
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS `bancousuario` (
   `formacao` text DEFAULT NULL,
   `foto` varchar(255) DEFAULT 'vazio.png',
   PRIMARY KEY (`idUsuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- Copiando dados para a tabela receitasdaora.bancousuario: ~7 rows (aproximadamente)
 INSERT INTO `bancousuario` (`idUsuario`, `usuario`, `email`, `senha`, `formacao`, `foto`) VALUES
@@ -61,8 +61,8 @@ INSERT INTO `bancousuario` (`idUsuario`, `usuario`, `email`, `senha`, `formacao`
 	(3, 'Erick Jacão', 'jacao.panicoschef@mail.com', '$2y$10$dQsFVFOb.xqwUXiDYeIgvOUJRkwHpZOGw1Hbs31smFJcCjBt5xbHS', 'MasterChef', '1686937708imagem_2023-06-16_144707442.png'),
 	(4, 'Mana Bruscheta', 'mana123@mail.com', '$2y$10$mn6y5kLBtC1RRyTVBusFauqB8/eDH5EbLxhvv27RKq9ZwSXz.qoJG', NULL, '1686937934imagem_2023-06-16_145143754.png'),
 	(5, 'Paolha Cassarolha', 'cassarolha.panicoschef@mail.com', '$2y$10$lCToKVn0LA7pJWRj9PtapuF2X9zYO/9pMyYgpkQF7Cd2uJ03s4ucy', 'Masterchef', '1686938078imagem_2023-06-16_145345176.png'),
-	(6, 'Miguela', 'eaeculega@mail.com', '$2y$10$bgprdPs06S71rTZks3vMSOPpwOu6r4BY7tslDw0qUWFIduBHdRr7.', NULL, '1686938776imagem_2023-06-16_150615241.png'),
-	(7, 'Chinesa', 'basilela@mail.com', '$2y$10$u5GTfSDyG9u0vK8YM04AjuXFUDzs1lK78ALR.vcC9IeFXtDlLY7Sm', NULL, '1686947323imagem_2023-06-16_172811313.png');
+	(7, 'Chinesa', 'basilela@mail.com', '$2y$10$u5GTfSDyG9u0vK8YM04AjuXFUDzs1lK78ALR.vcC9IeFXtDlLY7Sm', NULL, '1686947323imagem_2023-06-16_172811313.png'),
+	(8, 'Índio Ana Jones', 'indiomtoloko@mail.com', '$2y$10$uaoAg88OYEm79bExyqZjzemfaBlulCt0qxgXFarzucinXAUrJCOU.', NULL, '1687170030indioanajones.jpg');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
