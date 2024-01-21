@@ -17,6 +17,7 @@ Programas recomendados: XAMPP e HeidiSQL.
 4. Só abrir o site no navegador. (localhost/receitas_daora)
 5. Importante: dê uma olhada no arquivo users que está no extra_files. Ele será útil para login.
 
+(Eu adicionei um guia em PDF, caso seja útil.)
 -- --
 
 ## Versões:
